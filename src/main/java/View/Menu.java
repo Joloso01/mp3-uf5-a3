@@ -52,7 +52,14 @@ public class Menu {
 
     private void menuFiltrar() {
         System.out.println();
-        System.out.println("Menu Filtres");
+        System.out.println(" Menu Filtres");
+        System.out.println("<------------>");
+        System.out.println("1.Por Barrios");
+        System.out.println("2.Por Distritos");
+        System.out.println("3.Por Tipo de vehiculo");
+        System.out.println("4.Por Antiguedad");
+        System.out.println("5.Numero de vehiculos totales en BCN");
+        System.out.println("");
 
     }
 
