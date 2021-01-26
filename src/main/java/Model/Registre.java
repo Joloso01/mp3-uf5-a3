@@ -4,30 +4,32 @@ package Model;
 import com.opencsv.bean.CsvBindByName;
 import lombok.Data;
 
+import java.io.Serial;
+
 @Data
 public class Registre {
 
     @CsvBindByName
-    String promotor_gestor;
+    String Any;
 
     @CsvBindByName
-    String ACCES;
+    String Codi_Districte;
 
     @CsvBindByName
-    String tipus_velocitat;
+    String Nom_Districte;
 
     @CsvBindByName
-    String CONNEXIO;
+    String Codi_Barri;
 
     @CsvBindByName
-    float LATITUD;
+    String Nom_Barri;
 
     @CsvBindByName
-    float LONGITUD;
+    String Tipus_Vehicles;
 
     @CsvBindByName
-    int POTENCIA;
+    String Antiguitat;
 
     @CsvBindByName
-    String TIPUS_DE_CORRENT;
+    String  Nombre;
 }

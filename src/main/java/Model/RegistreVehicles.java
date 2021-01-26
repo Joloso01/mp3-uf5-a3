@@ -2,7 +2,7 @@ package Model;
 
 import java.util.List;
 
-public class RegistreDeLlicencies {
+public class RegistreVehicles {
 
     private List<Registre> llistaDeRegistres;
 
