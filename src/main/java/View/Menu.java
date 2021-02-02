@@ -61,7 +61,7 @@ public class Menu {
         System.out.println("2.Por Distritos");
         System.out.println("3.Por Tipo de vehiculo");
         System.out.println("4.Por Antiguedad");
-        System.out.println("5.Registros de barrios tienen e en el nombre");
+        System.out.println("5.Registros de barrios que contiene E en el nombre");
         System.out.println("6.Vehiculos totales por barrios");
         System.out.println("7.Numero de vehiculos totales en BCN");
         System.out.println("8.Barrio con mas Turismos");
