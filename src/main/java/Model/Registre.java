@@ -31,5 +31,5 @@ public class Registre {
     String Antiguitat;
 
     @CsvBindByName
-    String  Nombre;
+    int  Nombre;
 }
