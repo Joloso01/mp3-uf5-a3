@@ -132,7 +132,7 @@ public class Menu {
     }
 
     private void filtroVehiculosTotalesBcn() {
-        System.out.println(" Filtro coches totales en Bcn");
+        System.out.println(" Filtro vehiculos totales en Bcn");
         System.out.println("<---------------------------->");
         System.out.println("En barcelona hay: " + controlFiltros.vehiculosTotales() + " vehiculos.");
         System.out.println();
@@ -140,7 +140,7 @@ public class Menu {
     }
 
     private void filtroVehiculosBarrios() {
-        System.out.println(" Filtro coches totales Por barrios");
+        System.out.println(" Filtro vehiculos totales Por barrios");
         System.out.println("<--------------------------------->");
         System.out.println("Introduzca el codigo del barrio:");
         int codigoBarrio = sc.nextInt();
